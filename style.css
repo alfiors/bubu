@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.bubu-button {
+    padding: 20px 40px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ff5f5f;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bubu-button:hover {
+    background-color: #ff4a4a;
+}
+
+.love-container {
+    text-align: center;
+    font-size: 28px;
+    color: #ff4a4a;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.love-container p {
+    margin: 10px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
